@@ -4,7 +4,6 @@ pipeline {
         stage('build base image') {
             steps {
                 echo 'Building Base Docker Image...'
-                sh 'make build-base'
             }
         }
      }
