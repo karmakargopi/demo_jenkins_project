@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('build base image') {
+        stage('Build') {
             steps {
-                echo 'Building Base Docker Image...'
+                sh 'Build Successfull !!!'
             }
         }
      }
