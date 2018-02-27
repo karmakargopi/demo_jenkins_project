@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'It is a Develop Branch !!!'
+                echo 'It is a Feature Branch !!!'
             }
         }
      }
