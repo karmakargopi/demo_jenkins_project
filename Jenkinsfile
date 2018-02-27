@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Build Successfull !!!'
+                echo 'It is a Develop Branch !!!'
             }
         }
      }
