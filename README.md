@@ -1,2 +1,2 @@
 # demo_jenkins_project
-To check a private project.
+Build and Testing With Jenkins.
