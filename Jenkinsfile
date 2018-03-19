@@ -1,6 +1,6 @@
 pipeline {
     class Globals {
-        static String[] regions = {"north-america.ca", "japan-korea.jp", "lodon-spain.eu"}
+        static String[] regions = ["north-america.ca", "japan-korea.jp", "lodon-spain.eu"]
     }
     agent any
     stages {
