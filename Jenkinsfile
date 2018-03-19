@@ -4,7 +4,7 @@
     regions[2] = "london-spain.eu"
     regions[3] = "インドまだない"
     regions[4] = "インドで欲しいです"*/
-String regions[3] = ["north-america.ca", "japan-korea.jp", "london-spain.eu"]
+def regions[3] = ["north-america.ca", "japan-korea.jp", "london-spain.eu"]
 pipeline {
     agent any
     stages {
