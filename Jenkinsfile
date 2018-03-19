@@ -1,6 +1,7 @@
-def Globals {
-    static String[] regions = ["north-america.ca", "japan-korea.jp", "lodon-spain.eu"]
-}
+def regions = new String[3]
+    regions[0] = "north-america.ca"
+    regions[1] = "japan-korea.jp"
+    regions[2] = "lodon-spain.eu"
 pipeline {
     agent any
     stages {
