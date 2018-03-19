@@ -1,10 +1,10 @@
-pipeline {
-    def regions = new String[5]
+def regions = new String[5]
     regions[0] = "north-america.ca"
     regions[1] = "japan-korea.jp"
     regions[2] = "london-spain.eu"
     regions[3] = "インドまだない"
     regions[4] = "インドで欲しいです"
+pipeline {
     agent any
     stages {
         stage('Build') {
