@@ -1,5 +1,5 @@
 //def regions = new String[5]
-String[] regions = new String[5]
+String[] regions = new String[]
     regions[0] = "north-america.ca"
     regions[1] = "japan-korea.jp"
     regions[2] = "london-spain.eu"
