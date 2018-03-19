@@ -8,7 +8,7 @@ pipeline {
         stage('Build') {
             steps {
                 //echo 'It is a Develop Branch !!!'
-                echo Globals.regions[1]
+                echo regions[1]
             }
         }
      }
